@@ -26,8 +26,7 @@ function App() {
         <div className="list">
           {toDo.map((item)=> <ToDo key={item._id} text={item.text}/>)}
           <ToDo text="hi"/>
-          <ToDo text="hi"/>
-          <ToDo text="hi"/>
+        
 
         </div>
 
